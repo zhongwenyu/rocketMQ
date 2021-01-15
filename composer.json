@@ -1,0 +1,19 @@
+{
+    "name": "ybrenlib/rocketmq",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "ybrenlib/logger": "~1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ybrenLib\\rocketmq\\": "src\\ybrenLib\\rocketmq"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "secure-http": false
+    }
+}
